@@ -6,6 +6,8 @@ Instructios:
 To run two instances of the iPhone emulator.
 
 cd /Applications/Xcode.app/Contents/Developer/Applications
+
+
 open -n Simulator.app
 open -n Simulator.app
 
