@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5167700EB17E265CC831A460 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7A3F725CAF174E7A288267 /* Pods.framework */; };
+		D96CFD0B1CB089CB00B784B1 /* miss.png in Resources */ = {isa = PBXBuildFile; fileRef = D96CFD0A1CB089CB00B784B1 /* miss.png */; };
 		D972AFEE1C9F53B100DFC10E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D972AFED1C9F53B100DFC10E /* AppDelegate.swift */; };
 		D972AFF01C9F53B100DFC10E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D972AFEF1C9F53B100DFC10E /* ViewController.swift */; };
 		D972AFF31C9F53B100DFC10E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D972AFF11C9F53B100DFC10E /* Main.storyboard */; };
 		D972AFF51C9F53B100DFC10E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D972AFF41C9F53B100DFC10E /* Assets.xcassets */; };
 		D972AFF81C9F53B100DFC10E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D972AFF61C9F53B100DFC10E /* LaunchScreen.storyboard */; };
+		D98E9F771C9F980900ACACEC /* loginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E9F761C9F980900ACACEC /* loginPage.swift */; };
+		D99553801CA068B7009EA3BC /* ServerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D995537F1CA068B7009EA3BC /* ServerHandler.swift */; };
+		D9C2F1AA1CAD835800526E50 /* white_ship.png in Resources */ = {isa = PBXBuildFile; fileRef = D9C2F1A91CAD835800526E50 /* white_ship.png */; };
+		D9C2F1AE1CAD839400526E50 /* pirate_ship.png in Resources */ = {isa = PBXBuildFile; fileRef = D9C2F1AD1CAD839400526E50 /* pirate_ship.png */; };
+		D9DDB4C01CB2F92F00FACA5C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDB4BF1CB2F92F00FACA5C /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		982A027C8429DA4120FC6DBF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AA7A3F725CAF174E7A288267 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1069444F904675BBFD467F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D96CFD0A1CB089CB00B784B1 /* miss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = miss.png; path = ../../../../Desktop/miss.png; sourceTree = "<group>"; };
 		D972AFEA1C9F53B100DFC10E /* Battleship Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Battleship Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D972AFED1C9F53B100DFC10E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D972AFEF1C9F53B100DFC10E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,11 @@
 		D972AFF41C9F53B100DFC10E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D972AFF71C9F53B100DFC10E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D972AFF91C9F53B100DFC10E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D98E9F761C9F980900ACACEC /* loginPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginPage.swift; sourceTree = "<group>"; };
+		D995537F1CA068B7009EA3BC /* ServerHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerHandler.swift; sourceTree = "<group>"; };
+		D9C2F1A91CAD835800526E50 /* white_ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white_ship.png; path = ../../../../Desktop/white_ship.png; sourceTree = "<group>"; };
+		D9C2F1AD1CAD839400526E50 /* pirate_ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pirate_ship.png; path = ../../../../Desktop/pirate_ship.png; sourceTree = "<group>"; };
+		D9DDB4BF1CB2F92F00FACA5C /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5167700EB17E265CC831A460 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		722C478ECC06F858EE3B5894 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA7A3F725CAF174E7A288267 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88C1A6E25A05BCE5ADED698F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				982A027C8429DA4120FC6DBF /* Pods.debug.xcconfig */,
+				CC1069444F904675BBFD467F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D972AFE11C9F53B100DFC10E = {
 			isa = PBXGroup;
 			children = (
+				D995537E1CA0689F009EA3BC /* Server */,
 				D972AFEC1C9F53B100DFC10E /* Battleship Game */,
 				D972AFEB1C9F53B100DFC10E /* Products */,
+				88C1A6E25A05BCE5ADED698F /* Pods */,
+				722C478ECC06F858EE3B5894 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +91,35 @@
 		D972AFEC1C9F53B100DFC10E /* Battleship Game */ = {
 			isa = PBXGroup;
 			children = (
+				D9C2F1A81CAD830F00526E50 /* Images */,
 				D972AFED1C9F53B100DFC10E /* AppDelegate.swift */,
 				D972AFEF1C9F53B100DFC10E /* ViewController.swift */,
+				D98E9F761C9F980900ACACEC /* loginPage.swift */,
 				D972AFF11C9F53B100DFC10E /* Main.storyboard */,
 				D972AFF41C9F53B100DFC10E /* Assets.xcassets */,
 				D972AFF61C9F53B100DFC10E /* LaunchScreen.storyboard */,
 				D972AFF91C9F53B100DFC10E /* Info.plist */,
+				D9DDB4BF1CB2F92F00FACA5C /* Player.swift */,
 			);
 			path = "Battleship Game";
+			sourceTree = "<group>";
+		};
+		D995537E1CA0689F009EA3BC /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				D995537F1CA068B7009EA3BC /* ServerHandler.swift */,
+			);
+			name = Server;
+			sourceTree = "<group>";
+		};
+		D9C2F1A81CAD830F00526E50 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D96CFD0A1CB089CB00B784B1 /* miss.png */,
+				D9C2F1AD1CAD839400526E50 /* pirate_ship.png */,
+				D9C2F1A91CAD835800526E50 /* white_ship.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +129,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D972AFFC1C9F53B100DFC10E /* Build configuration list for PBXNativeTarget "Battleship Game" */;
 			buildPhases = (
+				960DB7AC21AC7B627145B13B /* Check Pods Manifest.lock */,
 				D972AFE61C9F53B100DFC10E /* Sources */,
 				D972AFE71C9F53B100DFC10E /* Frameworks */,
 				D972AFE81C9F53B100DFC10E /* Resources */,
+				4BDFA8F6EAF8B3B6BC8A341E /* Embed Pods Frameworks */,
+				62F9B1EA3923DE7B1ECE73A3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,12 +185,63 @@
 			buildActionMask = 2147483647;
 			files = (
 				D972AFF81C9F53B100DFC10E /* LaunchScreen.storyboard in Resources */,
+				D9C2F1AE1CAD839400526E50 /* pirate_ship.png in Resources */,
+				D9C2F1AA1CAD835800526E50 /* white_ship.png in Resources */,
 				D972AFF51C9F53B100DFC10E /* Assets.xcassets in Resources */,
 				D972AFF31C9F53B100DFC10E /* Main.storyboard in Resources */,
+				D96CFD0B1CB089CB00B784B1 /* miss.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BDFA8F6EAF8B3B6BC8A341E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62F9B1EA3923DE7B1ECE73A3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		960DB7AC21AC7B627145B13B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D972AFE61C9F53B100DFC10E /* Sources */ = {
@@ -138,6 +250,9 @@
 			files = (
 				D972AFF01C9F53B100DFC10E /* ViewController.swift in Sources */,
 				D972AFEE1C9F53B100DFC10E /* AppDelegate.swift in Sources */,
+				D98E9F771C9F980900ACACEC /* loginPage.swift in Sources */,
+				D9DDB4C01CB2F92F00FACA5C /* Player.swift in Sources */,
+				D99553801CA068B7009EA3BC /* ServerHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +280,7 @@
 /* Begin XCBuildConfiguration section */
 		D972AFFA1C9F53B100DFC10E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 982A027C8429DA4120FC6DBF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -200,7 +316,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -210,6 +326,7 @@
 		};
 		D972AFFB1C9F53B100DFC10E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC1069444F904675BBFD467F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -239,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -248,6 +365,7 @@
 		};
 		D972AFFD1C9F53B100DFC10E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 982A027C8429DA4120FC6DBF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Battleship Game/Info.plist";
@@ -259,6 +377,7 @@
 		};
 		D972AFFE1C9F53B100DFC10E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC1069444F904675BBFD467F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Battleship Game/Info.plist";
@@ -287,6 +406,7 @@
 				D972AFFE1C9F53B100DFC10E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
