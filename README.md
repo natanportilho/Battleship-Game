@@ -1,6 +1,8 @@
 # Battleship-Game
 A battleship game for iOS written in Swift.
 
+![alt tag] (http://s31.postimg.org/m5418sd3v/game.png)
+
 Instructios:
 
 To run two instances of the iPhone emulator.
@@ -9,6 +11,7 @@ cd /Applications/Xcode.app/Contents/Developer/Applications
 
 
 open -n Simulator.app
+
 open -n Simulator.app
 
 To run two different sumulators properly with two different hardwares and avoid the "Unable to boot device in current state: Booted".
